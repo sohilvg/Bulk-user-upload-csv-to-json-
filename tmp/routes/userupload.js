@@ -65,7 +65,7 @@ const add_user = async (
     console.log(customer_uuid);
     await rp({
       method: "POST",
-      uri: `https://api-users-ml.dev-sequr.io/v1/customer/${customer_uuid}/user`,
+      uri: ``,
       body: {
         email: user.email === "" ? null : user.email,
         name: user.name,
