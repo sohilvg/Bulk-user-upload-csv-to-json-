@@ -80,7 +80,7 @@ const add_user = async (
       headers: {
         "content-type": "application/json",
         Authorization:
-          "Basic OjgyRkVEMjYyMjU2RUI5MTNFRjlCMUEwQUJGRDE5RUVBRTI0QzI0QTk3Q0M1QjlDRUNENDI4QzMwODU0NjdGOUY="
+          "****************************************************"
       },
       json: true // Automatically stringifies the body to JSON
     });
